@@ -42,21 +42,22 @@
 
 **index.html**
 
-* missing utf-8 meta
-* missing view port
+* ~~missing utf-8 meta~~
+* ~~missing view port~~
 * normalize.css link 404
 * some symantic sections
 * no ARIA elements
 * neighborhoods-select - aria label
 * cuisines-select - aria label
-* google map key - AIzaSyBeFc5JZn8ZcPtaqggrUimISDqF3jc6E5c
+* ~~google map key - AIzaSyBeFc5JZn8ZcPtaqggrUimISDqF3jc6E5c~~
 * view details buttons need aria description
 * restaurant list is not responsive
 
 **restaurant.html**
 
-* missing utf-8 meta
-* missing view port
+* ~~missing utf-8 meta~~ 
+* ~~missing view port~~
+* ~~google map key - AIzaSyBeFc5JZn8ZcPtaqggrUimISDqF3jc6E5c~~
 * normalize.css link 404
 * some symantic sections
 * no ARIA elements
