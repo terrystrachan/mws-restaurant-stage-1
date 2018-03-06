@@ -49,6 +49,9 @@
 * no ARIA elements
 * neighborhoods-select - aria label
 * cuisines-select - aria label
+* google map key - AIzaSyBeFc5JZn8ZcPtaqggrUimISDqF3jc6E5c
+* view details buttons need aria description
+* restaurant list is not responsive
 
 **restaurant.html**
 
@@ -57,10 +60,17 @@
 * normalize.css link 404
 * some symantic sections
 * no ARIA elements
+* no keyboard navigation to reviews
+* footer doesnt span page
+* elements overlap
+
  
 **styles.css**
 
 * no ARIA selectors 
+* no media break points
+* no defined focus ring
+
 
 **restaurants.json**
 
@@ -89,3 +99,10 @@
 **General notes**
 
 * no service worker js
+* tab order unfathomable (gets lost in map)
+* screen reader unintelligible
+* 
+
+**For info**
+thumbnail 270x248 - 800 x 600
+info page 441x330
