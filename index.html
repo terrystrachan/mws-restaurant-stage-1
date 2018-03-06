@@ -40,7 +40,17 @@
   <script type="application/javascript" charset="utf-8" src="js/dbhelper.js"></script>
   <script type="application/javascript" charset="utf-8" src="js/main.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeFc5JZn8ZcPtaqggrUimISDqF3jc6E5c&libraries=places&callback=initMap"></script>
-
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+        .then(function (registration) {
+          console.log('Service Worker Registered');
+        });
+      navigator.serviceWorker.ready.then(function (registration) {
+        console.log('Service Worker Ready');
+      });
+    }
+  </script>
 
   <footer id="footer">
     Copyright (c) 2017
