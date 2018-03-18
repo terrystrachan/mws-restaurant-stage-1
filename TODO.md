@@ -44,7 +44,7 @@
 
 * ~~missing utf-8 meta~~
 * ~~missing view port~~
-* normalize.css link 404
+* ~~normalize.css link 404~~
 * some symantic sections
 * no ARIA elements
 * neighborhoods-select - aria label
@@ -58,7 +58,7 @@
 * ~~missing utf-8 meta~~ 
 * ~~missing view port~~
 * ~~google map key - AIzaSyBeFc5JZn8ZcPtaqggrUimISDqF3jc6E5c~~
-* normalize.css link 404
+* ~~normalize.css link 404~~
 * some symantic sections
 * no ARIA elements
 * no keyboard navigation to reviews
@@ -107,3 +107,11 @@
 **For info**
 thumbnail 270x248 - 800 x 600
 info page 441x330
+
+possible breakpoints?
+
+@media all and (max-width: 1024px) { ... } 64em
+
+@media all and (max-width: 839px) { ... } 52em
+
+@media all and (max-width: 480px) { ... } 30em
