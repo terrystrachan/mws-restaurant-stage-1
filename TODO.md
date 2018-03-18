@@ -45,7 +45,7 @@
 * ~~missing utf-8 meta~~
 * ~~missing view port~~
 * ~~normalize.css link 404~~
-* some symantic sections
+* ~~some symantic sections~~
 * no ARIA elements
 * neighborhoods-select - aria label
 * cuisines-select - aria label
@@ -58,12 +58,12 @@
 * ~~missing utf-8 meta~~ 
 * ~~missing view port~~
 * ~~google map key - AIzaSyBeFc5JZn8ZcPtaqggrUimISDqF3jc6E5c~~
-* ~~normalize.css link 404~~
-* some symantic sections
+* ~~normalize.css link 404~~    
+* ~~some symantic sections~~
 * no ARIA elements
 * no keyboard navigation to reviews
-* footer doesnt span page
-* elements overlap
+* ~~footer doesnt span page~~
+* ~~elements overlap~~
 
  
 **styles.css**
@@ -71,16 +71,17 @@
 * no ARIA selectors 
 * no media break points
 * no defined focus ring
+* ~~update for mobile first~~
 
 
 **restaurants.json**
 
-* restaurants data
+* ~~restaurants data~~
 
 **dbhelper.js**
 
-* js to simulate data from service
-* no work required here
+* ~~js to simulate data from service~~
+* ~~no work required here~~
 
 **main.js**
 
@@ -99,7 +100,7 @@
 
 **General notes**
 
-* no service worker js
+* ~~no service worker js~~
 * tab order unfathomable (gets lost in map)
 * screen reader unintelligible
 * 
