@@ -103,16 +103,10 @@
 * ~~no service worker js~~
 * tab order unfathomable (gets lost in map)
 * screen reader unintelligible
-* 
+* ~~add mobile / small media view~~
+* ~~add tablet / medium media view~~
+* ~~add large / desktop media view~~
 
 **For info**
 thumbnail 270x248 - 800 x 600
 info page 441x330
-
-possible breakpoints?
-
-@media all and (max-width: 1024px) { ... } 64em
-
-@media all and (max-width: 839px) { ... } 52em
-
-@media all and (max-width: 480px) { ... } 30em
