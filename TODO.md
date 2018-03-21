@@ -91,12 +91,13 @@
 * fillCuisinesHTML doesnt set ARIA posinset and setsize
 * createRestaurantHTML - img has no alt tag
 * initMap no aria label
+* ~~createRestaurantHTML- img has no alt tag~~
 
 
 **restaurant_info.js**
 
 * mixture of let and var - why?
-* fillRestaurantHTML - img has no alt tag
+* ~~fillRestaurantHTML - img has no alt tag~~
 
 **General notes**
 
