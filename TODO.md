@@ -103,6 +103,7 @@
 **General notes**
 
 * ~~no service worker js~~
+* ~~visited pages, data, css, js cached and cache versioned~~
 * ~~tab order unfathomable (gets lost in map)~~
 * screen reader unintelligible
 * ~~add mobile / small media view~~
