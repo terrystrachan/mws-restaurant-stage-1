@@ -52,6 +52,7 @@
 * ~~google map key - AIzaSyBeFc5JZn8ZcPtaqggrUimISDqF3jc6E5c~~
 * ~~view details buttons need aria description~~
 * ~~restaurant list is not responsive~~
+* ~~add keyboard method to skip tabbing through map~~
 
 **restaurant.html**
 
@@ -64,12 +65,13 @@
 * no keyboard navigation to reviews
 * ~~footer doesnt span page~~
 * ~~elements overlap~~
+* ~~add keyboard method to skip tabbing through map~~
 
  
 **styles.css**
 
 * no ARIA selectors 
-* no media break points
+* ~~no media break points~~
 * no defined focus ring
 * ~~update for mobile first~~
 
@@ -86,7 +88,7 @@
 **main.js**
 
 * no ARIA elements
-* mixture of let and var - why?
+* ~~mixture of let and var - why? - irrelevant ~~
 * fillNeighborhoodsHTML doesnt set ARIA posinset and setsize
 * fillCuisinesHTML doesnt set ARIA posinset and setsize
 * createRestaurantHTML - img has no alt tag
@@ -96,7 +98,7 @@
 
 **restaurant_info.js**
 
-* mixture of let and var - why?
+* ~~mixture of let and var - why? - irrelevant ~~
 * ~~fillRestaurantHTML - img has no alt tag~~
 
 **General notes**
