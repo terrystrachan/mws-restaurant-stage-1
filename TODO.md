@@ -70,7 +70,6 @@
  
 **styles.css**
 
-* no ARIA selectors 
 * ~~no media break points~~
 * ~~no defined focus ring~~
 * ~~update for mobile first~~
@@ -91,8 +90,8 @@
 * ~~mixture of let and var - why? - irrelevant~~
 * ~~fillNeighborhoodsHTML doesnt set ARIA posinset and setsize~~
 * ~~fillCuisinesHTML doesnt set ARIA posinset and setsize~~
-* initMap no aria label
 * ~~createRestaurantHTML- img has no alt tag~~
+* ~~button role on view details~~
 
 
 **restaurant_info.js**
