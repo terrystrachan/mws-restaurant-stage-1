@@ -31,11 +31,17 @@ fetchNeighborhoods = () => {
  */
 fillNeighborhoodsHTML = (neighborhoods = self.neighborhoods) => {
   const select = document.getElementById('neighborhoods-select');
+  let cntr = 1;
+  let maxNeighborhoods = neighborhoods.length;
+
   neighborhoods.forEach(neighborhood => {
     const option = document.createElement('option');
     option.innerHTML = neighborhood;
     option.value = neighborhood;
+    option.setAttribute('aria-setsize',maxNeighborhoods);
+    option.setAttribute('aria-posinset',cntr);
     select.append(option);
+    cntr += 1;
   });
 }
 
@@ -58,12 +64,16 @@ fetchCuisines = () => {
  */
 fillCuisinesHTML = (cuisines = self.cuisines) => {
   const select = document.getElementById('cuisines-select');
-
+  let cntr = 1;
+  let maxCuisines = cuisines.length;
   cuisines.forEach(cuisine => {
     const option = document.createElement('option');
     option.innerHTML = cuisine;
     option.value = cuisine;
+    option.setAttribute('aria-setsize',maxCuisines);
+    option.setAttribute('aria-posinset',cntr);
     select.append(option);
+    cntr += 1;
   });
 }
 
