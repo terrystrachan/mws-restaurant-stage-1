@@ -375,6 +375,26 @@ nav h1 a {
 	padding: 0 16px;
 }
 
+#reviews-list li .header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	font-size: 1.5em;
+}
+#reviews-list li .date {
+	color: #aaa;
+	float: right;
+	font-size: 0.8m;
+}
+#reviews-list li .rating {
+	background-color: #f58500;
+	color: #fff;
+	padding: 5px;
+	font-size: 1em;
+	width: 100px;
+	margin: 15px ;
+}
+
 #restaurant-hours td {
 	color: #666;
 }

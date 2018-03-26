@@ -61,8 +61,8 @@
 * ~~google map key - AIzaSyBeFc5JZn8ZcPtaqggrUimISDqF3jc6E5c~~
 * ~~normalize.css link 404~~    
 * ~~some symantic sections~~
-* no ARIA elements
-* no keyboard navigation to reviews
+* ~~no ARIA elements~~
+* ~~no keyboard navigation to reviews~~
 * ~~footer doesnt span page~~
 * ~~elements overlap~~
 * ~~add keyboard method to skip tabbing through map~~
@@ -87,10 +87,10 @@
 
 **main.js**
 
-* no ARIA elements
+* ~~no ARIA elements~~
 * ~~mixture of let and var - why? - irrelevant~~
-* fillNeighborhoodsHTML doesnt set ARIA posinset and setsize
-* fillCuisinesHTML doesnt set ARIA posinset and setsize
+* ~~fillNeighborhoodsHTML doesnt set ARIA posinset and setsize~~
+* ~~fillCuisinesHTML doesnt set ARIA posinset and setsize~~
 * initMap no aria label
 * ~~createRestaurantHTML- img has no alt tag~~
 
@@ -103,9 +103,9 @@
 **General notes**
 
 * ~~no service worker js~~
-* ~~visited pages, data, css, js cached and cache versioned~~
+* ~~visited pages, data, css, js cached and cache versioned~~ 
 * ~~tab order unfathomable (gets lost in map)~~
-* screen reader unintelligible
+* ~~screen reader unintelligible~~
 * ~~add mobile / small media view~~
 * ~~add tablet / medium media view~~
 * ~~add large / desktop media view~~
